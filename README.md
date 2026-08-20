@@ -1,6 +1,6 @@
 # 📚 DevSecOps Docs-as-Code & Wiki Knowledge Portal
 
-[![CI](https://github.com/vaibhavmahna/devsecops-docs-as-code-portal/actions/workflows/ci.yml/badge.svg)](https://github.com/vaibhavmahna/devsecops-docs-as-code-portal/actions/workflows/ci.yml)
+[![CI](https://img.shields.io/github/actions/workflow/status/vaibhavmahna/devsecops-docs-as-code-portal/ci.yml?style=for-the-badge&logo=githubactions&logoColor=white&label=CI)](https://github.com/vaibhavmahna/devsecops-docs-as-code-portal/actions/workflows/ci.yml)
 [![Node.js](https://img.shields.io/badge/Node.js_18+-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org)
 [![Express](https://img.shields.io/badge/Express_v4-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com)
 [![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://docker.com)
