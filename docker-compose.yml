@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  wiki-portal:
+    build:
+      context: ./app
+      dockerfile: ../Dockerfile
+    container_name: devsecops-wiki-portal
+    ports:
+      - "3000:3000"
+    environment:
+      - PORT=3000
+      - WIKI_DATA_PATH=/app/wiki-data
+    volumes:
+      - ./wiki-data:/app/wiki-data:ro
+    restart: unless-stopped
