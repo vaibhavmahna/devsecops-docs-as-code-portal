@@ -22,7 +22,7 @@ jobs:
       - name: Install App Dependencies
         run: |
           cd app
-          npm ci
+          npm install
 
       - name: Test Docker Container Build
         run: |
